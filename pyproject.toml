@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "qmk-firmware"
+version = "0.1.0"
+description = ""
+authors = ["Masashi Sode <masashi.sode@gmail.com>"]
+readme = "README.md"
+packages = [{include = "qmk_firmware"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+qmk = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
